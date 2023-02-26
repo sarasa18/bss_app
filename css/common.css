@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* bootstrap
+========================================================================= */
+*:focus {
+  outline: none !important;
+}
+*:focus {
+  box-shadow: none !important;
+}
+
+/* ====================================================================================
+====================================================================================
+共通
+====================================================================================
+==================================================================================== */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体",
+    "YuGothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ",
+    "Meiryo", sans-serif; */
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* 改行対策 */
+.d-inb {
+  display: inline-block;
+}
+
+.txta-cent {
+  text-align: center;
+}
+
+/* コンテナー系 */
+.c-container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding: 6% 0;
+}
+
+/* 余白 */
+.mgb-1em {
+  margin-bottom: 1em;
+}
+
+.con-m {
+  margin: 80px 0;
+}
+.con-p {
+  padding: 80px 0;
+}
+.con-bm {
+  margin: 120px 0;
+}
+.con-bp {
+  padding: 120px 0;
+}
+
+/*  */
+
+/*★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+共通 responsive
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+@media screen and (max-width: 768px) {
+} /* end @media screen */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* 余白 */
+  .con-m {
+    margin: 40px 0;
+  }
+  .con-p {
+    padding: 40px 0;
+  }
+  .con-bm {
+    margin: 60px 0;
+  }
+  .con-bp {
+    padding: 60px 0;
+  }
+} /* end @media screen */
+/*★★★★★★★★★★★★★★★★      共通 responsive end       ★★★★★★★★★★★★★★★★★★★★★★★★★ */
